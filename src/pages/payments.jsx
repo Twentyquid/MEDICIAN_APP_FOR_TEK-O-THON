@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 
 function Payments() {
   return (
@@ -16,7 +16,7 @@ function Payments() {
               <div className="h-0.5 w-full bg-gray-700/50 my-2"></div>
               <div className="flex justify-between">
                 <div className="flex items-center space-x-2">
-                  <i class="ri-information-fill"></i>
+                  <i className="ri-information-fill"></i>
                   <p>Due date:</p>
                 </div>
                 <p className="font-semibold">DEC 20, 2022</p>

@@ -5,6 +5,7 @@ import DesktopNav from "../components/DesktopNav";
 import MobileNavbar from "../components/MobileNav";
 import Payments from "./payments";
 import Reports from "./reports";
+import User from "./user";
 
 function Dashboard() {
   return (
@@ -15,6 +16,7 @@ function Dashboard() {
         <Route path="/home" element={<DashboardHome />} />
         <Route path="/reports" element={<Reports />} />
         <Route path="/payments" element={<Payments />} />
+        <Route path="/user" element={<User />} />
       </Routes>
     </div>
   );

@@ -9,6 +9,7 @@ import {
   Line,
   Tooltip,
 } from "recharts";
+import DataTable from "../components/Table";
 
 const data01 = [
   { name: "Group A", value: 400 },
@@ -160,6 +161,38 @@ function Reports() {
                 <td>33</td>
               </tr>
               <tr>
+                <td>WBC</td>
+                <td>33.2</td>
+                <td>33</td>
+              </tr>
+              <tr>
+                <td>WBC</td>
+                <td>33.2</td>
+                <td>33</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+        <p className="text-lg font-semibold text-white">History</p>
+        <div className="col-start-1 col-end-3 bg-white px-4 py-3 rounded-md">
+          <table className="w-full text-center rounded-md">
+            <tbody className="space-y-5">
+              <tr className="">
+                <th>Blood test</th>
+                <th>Result</th>
+                <th>Normal Value</th>
+              </tr>
+              <tr className="bg-slate-300 py-6">
+                <td>WBC</td>
+                <td>33.2</td>
+                <td>33</td>
+              </tr>
+              <tr>
+                <td>WBC</td>
+                <td>33.2</td>
+                <td>33</td>
+              </tr>
+              <tr className="bg-slate-300 py-6">
                 <td>WBC</td>
                 <td>33.2</td>
                 <td>33</td>

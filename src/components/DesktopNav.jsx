@@ -31,7 +31,9 @@ function DesktopNav() {
             </Link>
           </div>
           <div>
-            <i className="ri-settings-4-line"></i>
+            <Link to="/dashboard/user">
+              <i className="ri-user-line"></i>
+            </Link>
           </div>
         </div>
         <div className="text-xl">
