@@ -11,7 +11,7 @@ import pill2 from "../images/pill2.png";
 
 function DashboardHome() {
   return (
-    <div className="w-screen h-full flex md:pb-0 pb-20">
+    <div className="h-full flex md:pb-0 pb-20">
       <DesktopNav />
       <div className="flex-1">
         <div className="flex flex-col md:grid md:grid-cols-5 md:grid-rows-5 h-full gap-2 overflow-hidden px-4 py-3  bg-gray-800">
@@ -52,9 +52,9 @@ function DashboardHome() {
           </div>
           <div className="row-start-1 row-end-4 col-start-3 col-end-6 bg-white rounded-md">
             <p>Calendar</p>
-            <div className="flex">
+            <div className="grid grid-cols-1 md:flex">
               <Calendar />
-              <div className="flex-1 px-4 py-3 ml-5 h-full w-full">
+              <div className="flex-1 px-4 py-3 md:ml-5 h-full w-full">
                 <p>Informations</p>
                 <div>
                   <p>DETAILS</p>

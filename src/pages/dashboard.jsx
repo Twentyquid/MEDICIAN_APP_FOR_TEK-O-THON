@@ -6,7 +6,7 @@ import Reports from "./reports";
 
 function Dashboard() {
   return (
-    <div className="md:h-screen min-h-screen w-screen relative">
+    <div className="md:h-screen min-h-screen relative">
       <MobileNavbar />
       <Routes>
         <Route path="/home" element={<DashboardHome />} />
