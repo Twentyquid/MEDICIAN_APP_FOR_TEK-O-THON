@@ -1,5 +1,6 @@
 import React from "react";
 import logo from "../images/logo.png";
+import { Link } from "react-router-dom";
 
 function DesktopNav() {
   return (
@@ -18,10 +19,12 @@ function DesktopNav() {
             <i className="ri-bank-card-line"></i>
           </div>
           <div>
-            <i class="ri-qr-code-line"></i>
+            <i className="ri-qr-code-line"></i>
           </div>
           <div>
-            <i className="ri-pie-chart-2-line"></i>
+            <Link to="/dashboard/reports">
+              <i className="ri-pie-chart-2-line"></i>
+            </Link>
           </div>
           <div>
             <i className="ri-settings-4-line"></i>

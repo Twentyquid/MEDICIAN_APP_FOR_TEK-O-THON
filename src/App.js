@@ -11,7 +11,7 @@ function App() {
     return <div></div>;
   } else {
     return (
-      <div>
+      <div className="w-full h-full">
         <Router>
           <Routes>
             <Route path="/" element={<Signin />} />

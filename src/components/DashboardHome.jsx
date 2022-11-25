@@ -11,10 +11,10 @@ import pill2 from "../images/pill2.png";
 
 function DashboardHome() {
   return (
-    <div className="md:h-screen min-h-screen bg-gray-300 flex">
+    <div className="w-screen h-full flex md:pb-0 pb-20">
       <DesktopNav />
       <div className="flex-1">
-        <div className="flex flex-col md:grid grid-cols-5 grid-rows-5 h-full gap-2 overflow-hidden px-4 py-3  bg-gray-800">
+        <div className="flex flex-col md:grid md:grid-cols-5 md:grid-rows-5 h-full gap-2 overflow-hidden px-4 py-3  bg-gray-800">
           <div className="row-start-1 row-end-4 col-start-1 col-end-3 bg-white rounded-md">
             <Appbar />
             <div>
@@ -31,7 +31,7 @@ function DashboardHome() {
                 <div className="px-4 py-3">
                   <div className="px-2 py-2 bg-green-200/50 text-green-600 rounded-full text-sm font-semibold flex justify-between items-center space-x-2">
                     <div className="flex-grow-0">
-                      <i class="ri-check-line"></i>
+                      <i className="ri-check-line"></i>
                     </div>
                     <p>HEALTHY</p>
                   </div>
@@ -98,12 +98,14 @@ function DashboardHome() {
                 How should you check your health status on your own?
               </p>
               <div className="w-full h-full">
-                <div className="w-full flex">
-                  <img
-                    className="w-full h-full object-cover"
-                    src={medicine}
-                    alt=""
-                  />
+                <div className="w-full flex justify-center items-center">
+                  <figure>
+                    <img
+                      className="w-full h-[150px] object-cover"
+                      src={medicine}
+                      alt=""
+                    />
+                  </figure>
                 </div>
               </div>
             </div>
