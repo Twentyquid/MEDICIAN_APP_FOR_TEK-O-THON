@@ -10,7 +10,7 @@ let data = [
 
 function LineChartCard() {
   return (
-    <div className="bg-violet-100 rounded-md flex-1 px-2 py-3 overflow-hidden">
+    <div className="bg-violet-100 rounded-md flex-1 px-2 py-3 overflow-hidden shadow-md">
       <p className="font-semibold text-gray-700">Heamoglobin</p>
       <div className="pt-8">
         <ResponsiveContainer width="100%" height={100}>

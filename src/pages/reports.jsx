@@ -77,9 +77,9 @@ const data = [
 
 function Reports() {
   return (
-    <div className="w-full pb-20 md:pb-0 min-h-screen bg-gray-300">
-      <h3 className="text-2xl px-4 py-3 font-semibold">Reports</h3>
-      <div className="flex flex-col md:grid grid-cols-2 gap-2">
+    <div className="w-full flex-1 md:h-screen overflow-scroll pb-20 md:pb-0 min-h-screen px-4 py-3 bg-gray-800 overflow-x-hidden">
+      <h3 className="text-2xl px-4 py-3 font-semibold text-white">Reports</h3>
+      <div className="flex flex-col pb-3 md:grid grid-cols-2 gap-2">
         <div className="bg-violet-100 px-4 py-3 rounded-md">
           <div>
             <p className="text-lg font-semibold">Haemoglobin Levels</p>
@@ -141,8 +141,8 @@ function Reports() {
             </LineChart>
           </ResponsiveContainer>
         </div>
-        <div className="col-start-1 col-end-3 bg-white px-4 py-3">
-          <table className="w-full text-center">
+        <div className="col-start-1 col-end-3 bg-white px-4 py-3 rounded-md">
+          <table className="w-full text-center rounded-md">
             <tbody className="striped">
               <tr>
                 <th>Blood test</th>

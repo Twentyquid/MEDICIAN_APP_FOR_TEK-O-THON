@@ -13,10 +13,14 @@ function DesktopNav() {
         </div>
         <div className="flex-1 space-y-8 text-xl">
           <div>
-            <i className="ri-home-line"></i>
+            <Link to="/dashboard/home">
+              <i className="ri-home-line"></i>
+            </Link>
           </div>
           <div>
-            <i className="ri-bank-card-line"></i>
+            <Link to="/dashboard/payments">
+              <i className="ri-bank-card-line"></i>
+            </Link>
           </div>
           <div>
             <i className="ri-qr-code-line"></i>
