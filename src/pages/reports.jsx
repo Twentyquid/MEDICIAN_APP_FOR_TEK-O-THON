@@ -142,38 +142,9 @@ function Reports() {
             </LineChart>
           </ResponsiveContainer>
         </div>
-        <div className="col-start-1 col-end-3 bg-white px-4 py-3 rounded-md">
-          <table className="w-full text-center rounded-md">
-            <tbody className="striped">
-              <tr>
-                <th>Blood test</th>
-                <th>Result</th>
-                <th>Normal Value</th>
-              </tr>
-              <tr>
-                <td>WBC</td>
-                <td>33.2</td>
-                <td>33</td>
-              </tr>
-              <tr>
-                <td>WBC</td>
-                <td>33.2</td>
-                <td>33</td>
-              </tr>
-              <tr>
-                <td>WBC</td>
-                <td>33.2</td>
-                <td>33</td>
-              </tr>
-              <tr>
-                <td>WBC</td>
-                <td>33.2</td>
-                <td>33</td>
-              </tr>
-            </tbody>
-          </table>
+        <div className="col-start-1 col-end-3 px-4 py-3 rounded-md">
+          <p className="text-lg font-semibold text-white">History</p>
         </div>
-        <p className="text-lg font-semibold text-white">History</p>
         <div className="col-start-1 col-end-3 bg-white px-4 py-3 rounded-md">
           <table className="w-full text-center rounded-md">
             <tbody className="space-y-5">
@@ -184,23 +155,23 @@ function Reports() {
               </tr>
               <tr className="bg-slate-300 py-6">
                 <td>WBC</td>
-                <td>33.2</td>
-                <td>33</td>
+                <td>8</td>
+                <td>3.5 to 10.5</td>
               </tr>
               <tr>
-                <td>WBC</td>
-                <td>33.2</td>
-                <td>33</td>
+                <td>Neutrophils</td>
+                <td>62</td>
+                <td>40 to 70</td>
               </tr>
               <tr className="bg-slate-300 py-6">
-                <td>WBC</td>
-                <td>33.2</td>
-                <td>33</td>
+                <td>Lymphosites</td>
+                <td>28</td>
+                <td>25 to 45</td>
               </tr>
               <tr>
-                <td>WBC</td>
-                <td>33.2</td>
-                <td>33</td>
+                <td>Monocytes</td>
+                <td>10</td>
+                <td>2 to 8</td>
               </tr>
             </tbody>
           </table>

@@ -15,14 +15,18 @@ function Modal({ closeModal }) {
             <i className="ri-close-circle-fill text-5xl"></i>
           </button>
         </div>
-        <div className="w-full h-1/2 flex flex-col justify-center items-center">
+        <div className="w-full h-1/2 flex flex-col justify-center items-center space-y-4">
           <div>
             <p>time:</p>
-            <input className="bg-violet-100" type="text" />
+            <input className="bg-violet-100 rounded-md" type="text" />
           </div>
           <div>
-            <p>time:</p>
-            <input className="bg-violet-100" type="text" />
+            <p>hospital:</p>
+            <input className="bg-violet-100 rounded-md" type="text" />
+          </div>
+          <div>
+            <p>doctor:</p>
+            <input className="bg-violet-100 rounded-md" type="text" />
           </div>
         </div>
       </motion.div>

@@ -23,7 +23,9 @@ function DesktopNav() {
             </Link>
           </div>
           <div>
+            {/* <Link to="/dashboard/qrscan"> */}
             <i className="ri-qr-code-line"></i>
+            {/* </Link> */}
           </div>
           <div>
             <Link to="/dashboard/reports">

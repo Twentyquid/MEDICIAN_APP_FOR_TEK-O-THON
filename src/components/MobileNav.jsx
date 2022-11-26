@@ -10,9 +10,9 @@ function MobileNavbar() {
             <i className="ri-home-line"></i>
           </Link>
         </p>
-        <p>
-          <i className="ri-qr-code-line"></i>
-        </p>
+        <Link to="/dashboard/user">
+          <i className="ri-user-line"></i>
+        </Link>
         <p>
           <Link to="/dashboard/payments">
             <i className="ri-bank-card-line"></i>

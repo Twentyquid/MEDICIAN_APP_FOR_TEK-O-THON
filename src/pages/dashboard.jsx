@@ -4,6 +4,7 @@ import DashboardHome from "../components/DashboardHome";
 import DesktopNav from "../components/DesktopNav";
 import MobileNavbar from "../components/MobileNav";
 import Payments from "./payments";
+import QrScanner from "./qrscanner";
 import Reports from "./reports";
 import User from "./user";
 
@@ -17,6 +18,7 @@ function Dashboard() {
         <Route path="/reports" element={<Reports />} />
         <Route path="/payments" element={<Payments />} />
         <Route path="/user" element={<User />} />
+        <Route path="/qrscan" element={<QrScanner />} />
       </Routes>
     </div>
   );
